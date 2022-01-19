@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Профессиональный трейдинг за 60 минут</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="stylesheet" href="css/style_v4.css">
+    <!-- FAVICON-->
+    <!--link(rel="icon" type="image/png" href="img/fav/favicon-32x32.png" sizes="32x32")-->
+    <!--link(rel="icon" type="image/png" href="img/fav/favicon-16x16.png" sizes="16x16")-->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link href="css/css.css" rel="stylesheet">
+
+    <style>
+        .lock-icon, .videos-main::after, .videos-item .videos-item__lock{
+            display: none;
+        }
+        .videos-main__number{
+            opacity: 0;
+        }
+        .videos-item .videos-item__content-1,
+        .videos-item .videos-item__content-2 {
+            display: none;
+        }
+        .videos-item:hover .videos-item__content-1 {
+            display: none;
+        }
+        .videos-item:hover .videos-item__content-2 {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<header class="main-header">
+    <div class="main-wrapper">
+        <div class="logo"></div>
+    </div>
+</header>
+<div id="home" class="main">
+    <section class="page-section intro">
+        <div class="main-wrapper">
+            <h2 class="intro__subtitle">Материалы закрытого курса Александра Герчика</h2>
+            <h1 class="intro__title">Профессиональный трейдинг за <span>60</span> минут</h1>
+            <h3 style="color: #333333;" class="intro__text"><span style="color: #64caa4; font-weight: 600; font-size: 22px;">7 БЕСПЛАТНЫХ</span><br class="br-sm">
+                советов  от трейдера с Wall Street, которые сделают вас богаче</h3>
+        </div>
+    </section>
+    <section class="page-section videos">
+        <div class="main-wrapper">
+            <div class="videos-block">
+                <div class="videos-main" data-toggle="modal" data-target="#exampleModal">
+                    <p class="videos-main__number">Вебинар 1/<span>7</span></p>
+                    <h2 class="videos-main__title">Александр Герчик - лучший трейдер всех времен</h2>
+                    <!--p class="videos-main__text">
+                        - Как рассчитать ATR ?<br>
+                        - Для чего нужен АТR?
+                    </p-->
+                </div>
+                <ul class="videos-list">
+                    <li style="background-image: url(images/videos-item-1.jpg);" class="videos-item br-sm" data-toggle="modal" data-target="#exampleModal">
+                        <div class="videos-item__content-1">
+                            <div class="videos-item__unlock"></div>
+                            <div class="videos-item__title">
+                                <h3>Вебинар 1/<span>7</span></h3>
+                                <h2>Как устроен рынок</h2>
+                            </div>
+                        </div>
+                        <div class="videos-item__content-2">
+                            <div class="videos-item__title">
+                                <h3>Вебинар 1/<span>7</span></h3>
+                                <h2>Как устроен рынок</h2>
+                            </div>
+                            <div class="videos-item__about">
+                                <p>- Как анализировать рынок<br></p>
+                                <p>- Поведение крупного игрока</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li style="background-image: url(images/les2.jpg);" class="videos-item">
+                        <div class="videos-item__content-1">
+                            <div class="videos-item__lock"></div>
+                            <div class="videos-item__title">
+                                <h3>Вебинар 2/<span>7</span></h3>
+                                <h2></h2>
+                            </div>
+                        </div>
+                        <div class="videos-item__content-2">
+                            <div class="videos-item__title">
+                                <h3>Вебинар 2/<span>7</span></h3>
+                                <h2>Уровни</h2>
+                            </div>
+                            <div class="videos-item__about">
+                                <p>- Излом тренда </p>
+                                <p>- Сильные уровни</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="background-image: url(images/les3.jpg);" class="videos-item">
+                        <div class="videos-item__content-1">
+                            <div class="videos-item__lock"></div>
+                            <div class="videos-item__title">
+                                <h3>Вебинар 3/<span>7</span></h3>
+                                <h2></h2>
+                            </div>
+                        </div>
+                        <div class="videos-item__content-2">
+                            <div class="videos-item__title">
+                                <h3>Вебинар 3/<span>7</span></h3>
+                                <h2>БСУ, БПУ, Точка входа</h2>
+                            </div>
+                            <div class="videos-item__about">
+                                <p>- Что такое БСУ?</p>
+                                <p>- Что такое БПУ?</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="background-image: url(images/les4.jpg);" class="videos-item">
+                        <div class="videos-item__content-1">
+                            <div class="videos-item__lock"></div>
+                            <div class="videos-item__title">
+                                <h3>Вебинар 4/<span>7</span></h3>
+                                <h2></h2>
+                            </div>
+                        </div>
+                        <div class="videos-item__content-2">
+                            <div class="videos-item__title">
+                                <h3>Вебинар 4/<span>7</span></h3>
+                                <h2>Уровни первого часа</h2>
+                            </div>
+                            <div class="videos-item__about">
+                                <p>- Как увидеть уровень первого часа?</p>
+                                <p>- Как торговать от уровня первого часа?</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li style="background-image: url(images/les5.jpg);" class="videos-item">
+                        <div class="videos-item__content-1">
+                            <div class="videos-item__lock"></div>
+                            <div class="videos-item__title">
+                                <h3>Вебинар 5/<span>7</span></h3>
+                                <h2></h2>
+                            </div>
+                        </div>
+                        <div class="videos-item__content-2">
+                            <div class="videos-item__title">
+                                <h3>Вебинар 5/<span>7</span></h3>
+                                <h2>Стили торговли. Пробой</h2>
+                            </div>
+                            <div class="videos-item__about">
+                                <p>- Торговля от уровня </p>
+                                <p>- Пробой</p>
+                                <p>- Ложный пробой</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="background-image: url(images/les6.jpg);" class="videos-item">
+                        <div class="videos-item__content-1">
+                            <div class="videos-item__lock"></div>
+                            <div class="videos-item__title">
+                                <h3>Вебинар 6/<span>7</span></h3>
+                                <h2></h2>
+                            </div>
+                        </div>
+                        <div class="videos-item__content-2">
+                            <div class="videos-item__title">
+                                <h3>Вебинар 6/<span>7</span></h3>
+                                <h2>Риск-менеджмент. Какой нужен депозит ?</h2>
+                            </div>
+                            <div class="videos-item__about">
+                                <p>- Расчет рисков</p>
+                                <p>- Расчет депозита</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="background-image: url(images/les7.jpg);" class="videos-item">
+                        <div class="videos-item__content-1">
+                            <div class="videos-item__lock"></div>
+                            <div class="videos-item__title">
+                                <h3>Вебинар 7/<span>7</span></h3>
+                                <h2></h2>
+                            </div>
+                        </div>
+                        <div class="videos-item__content-2">
+                            <div class="videos-item__title">
+                                <h3>Вебинар 7/<span>7</span></h3>
+                                <h2>Ответы от Александра Герчика</h2>
+                            </div>
+                            <div class="videos-item__about">
+
+                                <p>- Ответы от Александра Герчика</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="form-block">
+
+                <h2 class="form-block__title">Зарегистрируйтесь,<br class="br-sm">  чтобы получить  <span style="color: #64caa4;font-weight: 600;font-size: 20px;">БЕСПЛАТНЫЙ </span> доступ</h2>
+                <form id="form-1" action method="POST" accept-charset="UTF-8">
+                    <div class="form">
+                        <div class="form__input">
+                            <input placeholder="Ваше имя" type="text" required="true" maxlength="80" name="firstname">
+                        </div>
+                        <div class="form__input">
+                            <input placeholder="Ваше отчество" type="text" required="true" maxlength="80" name="middlename">
+                        </div>
+                        <div class="form__input">
+                            <input placeholder="Ваш email" type="email" required="true" maxlength="80" name="email">
+                        </div>
+                        <div class="form__input">
+                            <input placeholder="Номер телефона" type="tel" required="true" maxlength="14" name="phone" class="phone phone-mask" id="phone1">
+                        </div>
+
+                        <button id="submit-1" type="submit" class="btn form__submit"><span>Зарегистрироваться</span>
+                            <div class="form__submit-arrow"></div>
+                            <div class="form__submit-loader"></div>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="page-section about">
+        <div class="main-wrapper">
+            <div class="about-list">
+                <h2>Уроки ведет Александр Герчик</h2>
+                <ul>
+                    <li>В 2006 году А.Герчик был признан самым безопасным трейдером современности в секторе day trading
+                        по версии канала Mojo CNBC. Человеком, который торгует с минимальным количеством убыточных дней
+                        в месяц. И как самый надежный трейдер, А.Герчик был приглашен для участия в сериале "Воины Уолл
+                        Стрит", права на трансляцию которого получили телеканалы более чем в 15 странах мира.
+                    </li>
+                    <li>За последние 10 лет торговли Александр Михайлович не имел ни одного убыточного месяца. Он
+                        зарабатывает в трейдинге миллионы, что подтверждено документально.
+
+                    </li>
+                    <li>Автор принципов торговли, подходящих любому рынку, которые используют 10 000+ студентов из
+                        разных стран мира
+                    </li>
+                    <li>Единственный тренер, который инвестирует собственные средства в торговлю своих учеников.</li>
+                    <li>Автор книг «Биржевой грааль или приключения трейдера Буратино», «Курс Активного Трейдера®»,
+                        «Биржа для блондинок»
+
+                    </li>
+                </ul>
+            </div>
+            <div class="about-text">
+                <h3>
+                    <span style="color: #64caa4;font-weight: 600;font-size: 20px;">Узнайте </span>
+                        <br class="br-sm"> 7 бесплатных <br> советов от трейдера с Wall Street, которые сделают вас богаче
+                </h3>
+                <h2>Постройте стратегию своей торговли!</h2>
+            </div>
+            <div class="form-block">
+                <h2 class="form-block__title">Зарегистрируйтесь,<br class="br-sm">  чтобы получить  <span style="color: #64caa4;font-weight: 600;font-size: 20px;">БЕСПЛАТНЫЙ </span> доступ </h2>
+                <form id="form-2" action=" send.php" method="POST" accept-charset="UTF-8">
+                    <div class="form">
+                        <div class="form__input">
+                            <input placeholder="Ваше имя" type="text" required="true" maxlength="80" name="firstname">
+                        </div>
+                        <div class="form__input">
+                            <input placeholder="Ваше отчество" type="text" required="true" maxlength="80" name="middlename">
+                        </div>
+                        <div class="form__input">
+                            <input placeholder="Ваш email" type="email" required="true" maxlength="80" name="email">
+                        </div>
+                        <div class="form__input">
+                            <input placeholder="Номер телефона" type="tel" required="true" maxlength="14" name="phone" class="phone phone-mask" id="phone2">
+                        </div>
+                        <button id="submit-2" type="submit" class="btn form__submit"><span>Зарегистрироваться</span>
+                            <div class="form__submit-arrow"></div>
+                            <div class="form__submit-loader"></div>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</div>
+<footer class="main-footer">
+    <div class="main-wrapper">
+        <div class="logo logo--white"></div>
+        <div class="main-footer__list">
+            <p>Gerchik ©2008-
+                <script type="text/javascript">
+                    document.write(new Date().getFullYear());
+                </script>
+                .<br class="br-sm"> Все права защищены
+            </p>
+            <a href="/agreements" class="main-footer__list-item">Пользовательское соглашение</a>
+            <a href="/policy" class="main-footer__list-item">Политика конфиденциальности</a>
+        </div>
+
+        <div class="socials">
+            <a href="https://www.facebook.com/gerchik.official" target="_blank" class="socials__item socials__item--fb"></a>
+            <a href="https://vk.com/gerchik.official" target="_blank" class="socials__item socials__item--vk"></a>
+            <a href="https://www.youtube.com/user/gerchikalex" target="_blank" class="socials__item socials__item--yt"></a>
+            <a href="https://t.me/AlexanderGerchik" target="_blank" class="socials__item socials__item--tg"></a>
+            <a href="https://www.instagram.com/gerchik_ru_official/" target="_blank" class="socials__item socials__item--in"></a>
+        </div>
+        <div style="text-align: center; color: rgba(255, 255, 255, 0.8); font-size: 12px">
+            <br> <br>
+            Регистрационный № 40512
+            Страна регистрации: Вануату
+            Юридический адрес: AJC, Govant Building, Kulum Highway, Port Vila, Vanuatu
+            Лицензия: Vanuatu Financial Services Commission: 40512
+            Телефон: 8 800 333 17 44
+        </div>
+    </div>
+</footer>
+
+<script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+<script src="js/slick.min.js" type="text/javascript"></script>
+
+<script>
+    $(function () {
+        if ($(window).width() < 720) {
+            $('.phone-menu__dropdown').click(function () {
+                $('.phone-menu').slideToggle(300, function () {
+                    $('.phone-menu').toggleClass('phone-menu--active')
+                });
+            });
+        } else {
+            $('.phone-menu__dropdown').click(function () {
+                $('.phone-menu__hidden').slideToggle(300, function () {
+                    $('.phone-menu').toggleClass('phone-menu--active')
+                });
+            });
+        }
+    });
+
+    $(function () {
+        // smooth scroll on anchors
+        $(document).on('click', '.link-smooth', function (event) {
+            event.preventDefault();
+            $('html, body').animate({
+                scrollTop: $($(this).attr('href')).offset().top + 10
+            }, 1500);
+        });
+
+        //popup link
+        $("body").click(function () {
+            hidePopup();
+        });
+        $(".popup, .popup-link").click(function (e) {
+            e.stopPropagation();
+        });
+
+        $('.popup__close').click(function () {
+            hidePopup();
+        });
+
+        videosSlider();
+        $(window).resize(function () {
+            videosSlider();
+        });
+
+    });
+
+    function showPopup(popupId) {
+        $(popupId).fadeIn(400);
+    }
+
+    function hidePopup() {
+        $('.popup-layout').fadeOut(400);
+        $('.popup-video').find('iframe').remove();
+    }
+
+    function showVideoPopup(videoId) {
+        showPopup('#popup-video');
+        $('.popup-video .popup-video__video').html('').append('<iframe width="100%" height="100%" src="https://www.youtube.com/embed/' + videoId + '?rel=0&amp&autoplay=1;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>');
+    }
+
+    function videosSlider() {
+        if ($(window).width() < 720) {
+            $('.videos-list').slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: true,
+                dots: false,
+                focusOnSelect: true,
+                centerMode: true,
+                variableWidth: true,
+                variableHeight: true,
+                centerPadding: '0px'
+            });
+        }
+    }
+
+
+</script>
+
+<script src="js/inputmask.js"></script>
+<script src="js/jquery.inputmask.js"></script>
+
+
+<style>
+    .messages.error {
+        font-size: 14px;
+        color: red;
+        margin-top: 6px;
+    }
+
+</style>
+<script>
+    $(document).ready(function () {
+        $(".phone-mask").inputmask({"mask": "99999999999"});
+    });
+    var getFbpUrl = function getFbpUrl(name) {
+        var urlParams = new URLSearchParams(window.location.search);
+        var param = urlParams.get(name);
+        return param;
+    };
+    var getCookie = function getCookie(name) {
+        var matches = document.cookie.match(new RegExp("(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"));
+        return matches ? decodeURIComponent(matches[1]) : undefined;
+    };
+    var fbpParam = getFbpUrl('fbp');
+    document.cookie = "fbp=" + fbpParam + ";path= /";
+    var validateEmail = function validateEmail(email) {
+        var re = /\S+@\S+\.\S+/;
+        return re.test(email);
+    };
+    var isName = function isName(name) {
+        var re = /^[A-Za-zа-яёА-ЯЁЩЬЮЯҐЄІЇа-щьюяґєі \s]+$/;
+        return re.test(name);
+    };
+    var isPhone = function isPhone(phone) {
+        var re = /^(\+7|7|8)([0-9]{10})$/;
+        return re.test(phone.toString());
+    };
+    <input name="message" type="hidden" value="0">
+                    <input name="time" class="registration__time" type="hidden" value="0">
+                    <input name="partnersCode" type="hidden" value="196">
+                    <input name="campaign_id" type="hidden" value="amazon_eu">
+                    <input name="affiliate_id" type="hidden" value="Vitaliy.A.">
+	$('form').each(function () {
+        $(this).submit(function (e) {
+            e.preventDefault();
+            $(this).find('div.error').remove();
+            let OK = true;
+            $(this).find('input').each(function () {
+                let input = $(this);
+                let val = input.val();
+                let el = input.parent()[0];
+                if (!val) {
+                    $(el).append('<div class="messages error">Это обязательное поле</div>');
+                    OK = false;
+                }
+            });
+            let emailVal = $(this).find("input[name=email]").val();
+            if (emailVal) {
+                if (!validateEmail(emailVal)) {
+                    let el = $(this).find("input[name=email]").parent()[0];
+                    $(el).append('<div class="messages error">Пожалуйста, введите правильный адрес электронной почты</div>');
+                    OK = false;
+                }
+            }
+            let firstnameVal = $(this).find("input[name=firstname]").val();
+            // let lastnameVal = $(this).find("input[name=lastname]").val();
+            let middlenameVal = $(this).find("input[name=middlename]").val();
+            if (firstnameVal) {
+                if (!isName(firstnameVal)) {
+                    let _el = $(this).find("input[name=firstname]").parent()[0];
+                    $(_el).append('<div class="messages error">Пожалуйста, введите правильное имя</div>');
+                    OK = false;
+                }
+            }
+            // if (lastnameVal) {
+            //     if (!isName(lastnameVal)) {
+            //         let _el = $(this).find("input[name=lastname]").parent()[0];
+            //         $(_el).append('<div class="messages error">Пожалуйста, введите правильную фамилию</div>');
+            //         OK = false;
+            //     }
+            // }
+            if (middlenameVal) {
+                if (!isName(middlenameVal)) {
+                    let _el = $(this).find("input[name=middlename]").parent()[0];
+                    $(_el).append('<div class="messages error">Пожалуйста, введите правильное отчество</div>');
+                    OK = false;
+                }
+            }
+            let phoneVal = $(this).find("input[name=phone]").val();
+            if (!isPhone(phoneVal)) {
+                let el = $(this).find("input[name=phone]").parent()[0];
+                $(el).append('<div class="messages error">Номер телефона должен начинаться на 7 или 8 и не превышать 11 символов</div>');
+                OK = false;
+            }
+            if (OK) {
+                let url_string = window.location.href;
+                let url = new URL(url_string);
+                let utm_sourceVal = url.searchParams.get("utm_source");
+                let utm_contentVal = url.searchParams.get("utm_content");
+                let utm_campaignVal = url.searchParams.get("utm_campaign");
+                let utm_termVal = url.searchParams.get("utm_term");
+                let utm_mediumVal = url.searchParams.get("utm_medium");
+                let clickidVal = url.searchParams.get("clickid");
+                let formtype = $(this).data('type');
+                let answers = $(this).serializeArray();
+               <script src="https://cdn.report/build/build.signup.js"></script>
+  <script>
+      function authorized (data){
+        console.log(data)
+          if(data) {
+              const { url } = data;
+              if(url) {
+                  location.href = './zakaz.html';
+              }
+          }
+      }
+      new $shared['signup']({
+              className: 'form', // class name of form
+              callback: (data) => { authorized(data) }, // callback if you need
+              fields: {
+                  first_name: { required: true }, // First name
+                  email: { required: true }, // User email
+                  phone: { required: true }, // User phone number
+                  message: { required: false }, // Send email
+                  time: { required: true }, // Time
+                  partnersCode: { required: true }, // Partners Code
+                  campaign_id: { required: true }, // Campaign id
+                  affiliate_id: { required: true }, // Affiliate id
+              }, // field that will be passed to API
+              headers: {
+                  'Content-Type': 'application/json',
+                  point: 'uni'
+              }, // Headers
+              triggers: {
+                  error: true,
+                  success: false
+              }, // Triggers for modal window, when result is fail or success. You can enable or disable it. Regarding this params you can see notification about status or so.
+              url: 'https://cdn.report/rest/utip/signup', // Api url
+              translation: {
+                  ru: {
+                      1: 'Ведите последние 5 цифр номера с которого вам поступил звонок',
+                      2: 'Код не верен',
+                      200: "Регистрация успешно пройдена",
+                      400: 'Возникли проблемы с регистрацией пользователя. Возможные причины: ',
+                      403: 'Не все обязательные поля были заполнены',
+                      500: 'Временные неполадки сервера, извините. Попробуйте позже, мы уже проводим технические работы по исправлению данной проблемы!',
+                      423: 'Мы заподозрили странную активность с вашего IP попробуйте через 5 секунд и удостоверьтесь что вы ввели правильные данные',
+                  },
+                  en: {
+                      1: 'Put 5 last digits of number from we are calling right now',
+                      2: 'Code is not right',
+                      200: "Registration was success",
+                      423: 'We suspected strange activity from your IP try in 5 seconds and make sure you entered the correct data',
+                      403: 'Validation was not passed',
+                      400: 'There were problems with the user registration. Possible reasons:',
+                      500: 'Temporary server problems, sorry. Later, we are already doing technical work to fix this problem!'
+                  }
+              }, // Not required. Use if you want to change the translation
+              clear: [ 'email' ], // Not required. Use if you want to clear some field after registration,
+              voice: 0 // 1 if you need verify the number of client, 0 vice versa. - Do not use it NOW just for request!
+          });
+  </script>
+                    }
+                });
+            }
+        });
+    });
+</script>
+</body>
+</html>
